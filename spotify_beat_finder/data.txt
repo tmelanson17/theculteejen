@@ -1,0 +1,66 @@
+Response: Some(CurrentlyPlayingContext { 
+    context: Some(Context { 
+        uri: "spotify:album:0qICBcSjyduXz64uotDT6M", 
+        href: "https://api.spotify.com/v1/albums/0qICBcSjyduXz64uotDT6M", 
+        external_urls: {"spotify": "https://open.spotify.com/album/0qICBcSjyduXz64uotDT6M"}, 
+        _type: Album 
+    }), 
+    timestamp: 2021-06-11T13:28:05.912Z, 
+    progress: Some(210.87s), 
+    is_playing: false, 
+    item: Some(Track(FullTrack { 
+        album: SimplifiedAlbum { 
+            album_group: None, 
+            album_type: Some("album"), 
+            artists: [SimplifiedArtist { 
+                external_urls: {"spotify": "https://open.spotify.com/artist/5zS8r5hRRk1jzD41yYS1NO"}, 
+                href: Some("https://api.spotify.com/v1/artists/5zS8r5hRRk1jzD41yYS1NO"), 
+                id: Some("5zS8r5hRRk1jzD41yYS1NO"), 
+                name: "Baths", 
+                _type: Artist, 
+                uri: Some("spotify:artist:5zS8r5hRRk1jzD41yYS1NO") 
+            }], 
+            available_markets: ["AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JM", "JO", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "MA", "MC", "MD", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RU", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VN", "VU", "WS", "ZA", "ZM", "ZW"], 
+            external_urls: {"spotify": "https://open.spotify.com/album/0qICBcSjyduXz64uotDT6M"}, 
+            href: Some("https://api.spotify.com/v1/albums/0qICBcSjyduXz64uotDT6M"), 
+            id: Some("0qICBcSjyduXz64uotDT6M"), 
+            images: [Image { height: Some(640), url: "https://i.scdn.co/image/ab67616d0000b2735c804132d0aa3174c4fcf904", width: Some(640) }, 
+                     Image { height: Some(300), url: "https://i.scdn.co/image/ab67616d00001e025c804132d0aa3174c4fcf904", width: Some(300) }, 
+                     Image { height: Some(64), url: "https://i.scdn.co/image/ab67616d000048515c804132d0aa3174c4fcf904", width: Some(64) }], 
+            name: "Romaplasm", 
+            release_date: Some("2017-11-17"), 
+            release_date_precision: Some("day"), restrictions: None, 
+            _type: Album, 
+            uri: Some("spotify:album:0qICBcSjyduXz64uotDT6M") 
+        }, 
+        artists: [
+            SimplifiedArtist { 
+                external_urls: {"spotify": "https://open.spotify.com/artist/5zS8r5hRRk1jzD41yYS1NO"}, 
+                href: Some("https://api.spotify.com/v1/artists/5zS8r5hRRk1jzD41yYS1NO"), 
+                id: Some("5zS8r5hRRk1jzD41yYS1NO"), 
+                name: "Baths", 
+                _type: Artist, 
+                uri: Some("spotify:artist:5zS8r5hRRk1jzD41yYS1NO") 
+            }
+        ], 
+        disc_number: 1, 
+        duration: 216.061s, 
+        explicit: false, 
+        external_ids: {"isrc": "QM5VX1500155"}, 
+        external_urls: {"spotify": "https://open.spotify.com/track/3ozmDv8F348lgCwBg6oaKX"}, 
+        href: Some("https://api.spotify.com/v1/tracks/3ozmDv8F348lgCwBg6oaKX"), 
+        id: Some("3ozmDv8F348lgCwBg6oaKX"), 
+        is_local: false, 
+        is_playable: None, 
+        linked_from: None, 
+        restrictions: None, 
+        name: "Broadback", 
+        popularity: 18, 
+        preview_url: Some("https://p.scdn.co/mp3-preview/5f3303bfdd1125216b4aab23d7dc8e84a0232800?cid=cf52e2571f4a4133b0fb23115f627605"), 
+        track_number: 12, 
+        _type: Track, 
+        uri: "spotify:track:3ozmDv8F348lgCwBg6oaKX" 
+    })), 
+    currently_playing_type: Track, 
+    actions: Actions { disallows: [Pausing] } 
+})
